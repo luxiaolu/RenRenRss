@@ -48,26 +48,22 @@ class spider(SGMLParser):
                             )
         req.add_header('User-Agent','Mozilla/4.0 (compatible; MSIE 5.5; WindowsNT)') 
         self.file=urllib2.urlopen(req).readlines()
+        self.tok=self.rtk=self.id=""
         for line in self.file:
             line = line.strip()
             if line.find("'id':")<>-1:
+                if self.id:
+                    continue
                 tmp_list=line.split(":")
                 self.id =tmp_list[-1].strip("',")
             elif line.find("get_check")<>-1:
+                if self.tok or self.rtk:
+                    continue
                 tmp_list=line.split(",",1)
                 self.tok = tmp_list[0].split(":")[-1].strip("',")
                 self.rtk = tmp_list[1].split(",",1)[0].split(":")[-1].strip("',")
             else:
                 pass
-        print self.id
-        print self.tok
-        print self.rtk
-        #idPos = self.file.index("'id':'")
-        #self.id=self.file[idPos+6:idPos+15]
-        #tokPos=self.file.index("get_check:'")
-        #self.tok=self.file[tokPos+11:tokPos+20]
-        #rtkPos=self.file.index("get_check_x:'")
-        #self.rtk=self.file[rtkPos+13:rtkPos+21]
         print "µÇÂ½³É¹¦"
 
     def publish(self,content):

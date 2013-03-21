@@ -55,10 +55,10 @@ class rss:
         #password = "mryiting17"
 
         renrenSpider = login.spider(email,password)
-        try:
-            renrenSpider.login()
-        except:
-            print "login failed"
+        #try:
+        renrenSpider.login()
+        #except:
+        #    print "login failed"
 
         print "Total :%d need to update"%(len(self.upContentList))
 
