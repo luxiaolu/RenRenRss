@@ -1,18 +1,63 @@
-# matrix67 
-http://feed.feedsky.com/matrix67
-# 月光博客
-http://feed.williamlong.info/
-# coolshell
-http://coolshell.cn/feed
-# 阮一峰
-http://www.ruanyifeng.com/blog/atom.xml
-# IT talks 魏武挥
-http://feed.feedsky.com/ittalks
-# 霍炬的网络日志 | huoju's blog
-http://feeds2.feedburner.com/virushuo
-# Leica中文摄影杂志
-http://feed.feedsky.com/leica
-# 小众软件
-http://feed.appinn.com/
-# 张家玮写东西的地方
-#http://blog.tianya.cn/blogger/rss.asp?BlogID=3848
+(dp0
+S'default'
+p1
+(lp2
+sS'science'
+p3
+(lp4
+(lp5
+S'http://feed.feedsky.com/matrix67'
+p6
+aS'matrix67'
+p7
+aS''
+p8
+aS'true'
+p9
+aasS'cultural'
+p10
+(lp11
+(lp12
+S'http://feed.feedsky.com/leica'
+p13
+aS'Leica\xd6\xd0\xce\xc4\xc9\xe3\xd3\xb0'
+p14
+ag8
+aS'true'
+p15
+aasS'it'
+p16
+(lp17
+(lp18
+S'http://feed.williamlong.info/'
+p19
+aS'\xd4\xc2\xb9\xe2\xb2\xa9\xbf\xcd'
+p20
+ag8
+aS'true'
+p21
+aa(lp22
+S'http://coolshell.cn/feed'
+p23
+aS'coolshell'
+p24
+ag8
+aS'true'
+p25
+aa(lp26
+S'http://www.ruanyifeng.com/blog/atom.xml'
+p27
+aS'\xc8\xee\xd2\xbb\xb7\xe5'
+p28
+ag8
+aS'true'
+p29
+aa(lp30
+S'http://feed.feedsky.com/ittalks'
+p31
+aS'\xce\xba\xce\xe4\xbb\xd3'
+p32
+ag8
+aS'true'
+p33
+aas.
